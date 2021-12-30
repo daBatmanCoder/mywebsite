@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+    font-family: sv basic manual;
+    color: white;
+    background-image: url("photos/cool2.png");
+}
+
+.gamingpanel{
+    background-image: url("photos/waves.jfif");
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+
+.topnav {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: #44112b;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.text-block{
+    position: absolute;
+    border-radius: 20px;
+    align-items: center;
+    top: 300px;
+    left: 200px;
+    background-color: #44112b;
+    color: white;
+    padding: 15px 30px 15px 35px;
+}
+.text-block a{
+    text-decoration: white;
+    font-size: 20px;
+    color:white;
+}
+
+.text-block:hover{
+background-color: transparent;
+}
+
+.postion{
+    margin-left: 100px;
+    margin-top: 200px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    left: 30px;
+
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50px;
+}
+
+#myBtn:hover {
+    background-color: #555;
+}
+
+.tab2 {
+    color: white;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.photos-color{
+    color: black;
+}
+
+.first-letter {
+    font-size: 50px;
+    line-height: 70px;
+}
+.photos{
+    overflow: hidden;
+    background-color: black;
+}
+
+.photos color{
+    padding: 300px 300px;
+}
+
+.mySlides {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+
+.trip{
+    display: block;
+    animation: fadein 0.3s;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#my_table{
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.vertical-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.MiddlePhoto {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+middle {
+    text-align:center;
+}
+table, th, td {
+    border: 1px solid white;
+}
+
+.form-field * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.myextra {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.warpper{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tab{
+    cursor: pointer;
+    padding:10px 20px;
+    margin:0px 2px;
+    background:#000;
+    display:inline-block;
+    color:#fff;
+    border-radius:20px 20px 0px 0px;
+    box-shadow: 0 0.5rem 0.8rem #00000080;
+}
+.panels{
+    background:#fffffff6;
+    box-shadow: 0 2rem 2rem #00000080;
+    min-height:300px;
+    width:100%;
+    max-width:1000px;
+    border-radius:3px;
+    overflow:hidden;
+    padding:20px;
+}
+.panel{
+    display:none;
+    color:#44112b;
+    animation: fadein 1.3s;
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+.panel-title{
+    font-size:1.5em;
+    font-weight:bold
+}
+.radio{
+    display:none;
+}
+#one:checked ~ .panels #one-panel,
+#two:checked ~ .panels #two-panel,
+#three:checked ~ .panels #three-panel,
+#four:checked ~ .panels #four-panel,
+#five:checked ~ .panels #five-panel{
+    display:block
+}
+#one:checked ~ .tabs #one-tab,
+#two:checked ~ .tabs #two-tab,
+#three:checked ~ .tabs #three-tab,
+#four:checked ~ .tabs #four-tab,
+#five:checked ~ .tabs #five-tab{
+    background:#fffffff6;
+    color:#000;
+    border-top: 3px solid #000;
+}
+
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+}
+
+.form-control{
+    width: 500px;
+    background: #44112b;
+    border: #44112b;
+    outline: #44112b;
+    border-bottom: 1px solid red;
+    color: white;
+    font-size: 18px;
+    font-family: sv basic manual;
+    margin-bottom: 20px;
+}
+
+input{
+    height: 50px;
+}
+
+form .submit{
+    background: #44112b;
+    font-size: 35px;
+}
+
+form .submit:hover{
+    background-color: #555;
+}
+
+.button-left {
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #44112b;
+    text-align: center;
+    color: white;
+}
+
+.button-left:hover{
+    background-color: #555;
+}
+
+.buttoncheck{
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #44112b;
+    text-align: center;
+    color: white;
+}
+
+.buttoncheck:hover{
+    background-color: #555;
+}
+
+.button-right{
+    padding: 5px 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #44112b;
+    text-align: center;
+    color: white;
+}
+
+.button-right:hover{
+    background-color: #555;
+}
+
+.hide{
+    display:none;
+}
+.show{
+    display:block;
+}
+
+.socialclub{
+    display: flex;
+    justify-content: center;
+    border-radius:3px;
+    padding: 5px 20px;
+    align-items: center;
+}
+
+.copyright{
+    display:flex;
+    justify-content: center;
+    color:white;
+    margin: 20px;
+}
+
+.copyright white{
+    background-color: white;
+}
+
+.margeig{
+    justify-content: center;
+    margin-left: 40px;
+}
+
+.trans{
+    color:transparent;
+}
+
+a:hover{
+    color:red;
+}
+
+.progressbarhide{
+    display: flex;
+    display:none;
+    margin: auto;
+    color: white;
+}
+
+.progressbarshow{
+    display: flex;
+    display:block;
+    margin: auto;
+    color: white;
+}
+
+.hidemessage{
+    display: none;
+}
+
+.showmessage{
+    display: block;
+    color:gold;
+}
+
+.showmessagewrong{
+    display: block;
+    color: darkred;
+}
+
+.showrestart{
+    display: block;
+    color: red;
+}
+
